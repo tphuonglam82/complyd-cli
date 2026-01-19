@@ -95,11 +95,16 @@ char* create_test_config_string(void) {
 
 int main(int argc, char *argv[]) {
     printf("%s%s", COLOR_BOLD, COLOR_CYAN);
-    printf("╔════════════════════════════════════════════════════════════════════════════╗\n");
-    printf("║                      HIPAA COMPLIANCE SCANNER v1.0                         ║\n");
-    printf("║                    Testing Security Configuration                          ║\n");
-    printf("╚════════════════════════════════════════════════════════════════════════════╝\n");
+    printf("\n");
+    printf("   ██████╗ ██████╗ ███╗   ███╗██████╗ ██╗  ██╗   ██╗██████╗ \n");
+    printf("  ██╔════╝██╔═══██╗████╗ ████║██╔══██╗██║  ╚██╗ ██╔╝██╔══██╗\n");
+    printf("  ██║     ██║   ██║██╔████╔██║██████╔╝██║   ╚████╔╝ ██║  ██║\n");
+    printf("  ██║     ██║   ██║██║╚██╔╝██║██╔═══╝ ██║    ╚██╔╝  ██║  ██║\n");
+    printf("  ╚██████╗╚██████╔╝██║ ╚═╝ ██║██║     ███████╗██║   ██████╔╝\n");
+    printf("   ╚═════╝ ╚═════╝ ╚═╝     ╚═╝╚═╝     ╚══════╝╚═╝   ╚═════╝ \n");
     printf("%s\n", COLOR_RESET);
+    printf("%s                    Complyd  Scanner v1.0\n", COLOR_BOLD);
+   // printf("                    Automation & Security Testing%s\n\n", COLOR_RESET);
     
     // Create test configuration
     char *config_data = create_test_config_string();
