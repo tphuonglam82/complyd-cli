@@ -36,23 +36,23 @@ cd complyd-cli
 make clean && make
 
 # Verify installation
-./grc-scan --help
+./complyd-scan --help
 ```
 
 ### Usage
 
 ```bash
 # Scan a JSON configuration file
-./grc-scan config.json
+./complyd-scan config.json
 
 # Scan a Markdown security policy
-./grc-scan security-policy.md
+./complyd-scan security-policy.md
 
 # Scan a YAML configuration
-./grc-scan app-config.yaml
+./complyd-scan app-config.yaml
 
 # Scan a PDF compliance document
-./grc-scan compliance-report.pdf
+./complyd-scan compliance-report.pdf
 ```
 
 ### Example Output
@@ -130,9 +130,9 @@ make test
 ./tests/integration/run_all_tests.sh
 
 # Test specific file formats
-./grc-scan tests/fixtures/compliant/config-full-compliant.json
-./grc-scan tests/fixtures/compliant/config-full-compliant.md
-./grc-scan tests/fixtures/compliant/config-full-compliant.yaml
+./complyd-scan tests/fixtures/compliant/config-full-compliant.json
+./complyd-scan tests/fixtures/compliant/config-full-compliant.md
+./complyd-scan tests/fixtures/compliant/config-full-compliant.yaml
 ```
 
 ## Project Structure
@@ -160,7 +160,7 @@ complyd-cli/
 - name: Run Complyd Scanner
   run: |
     make clean && make
-    ./grc-scan config.json
+    ./complyd-scan config.json
 ```
 
 ### GitLab CI
@@ -169,7 +169,7 @@ complyd-cli/
 compliance_check:
   script:
     - make clean && make
-    - ./grc-scan config.json
+    - ./complyd-scan config.json
 ```
 
 ## Contributing

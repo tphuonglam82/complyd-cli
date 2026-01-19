@@ -2,7 +2,7 @@ build/
 *.o
 *.a
 *.so
-grc-scan
+complyd-scan
 CMakeCache.txt
 CMakeFiles/
 .DS_Store

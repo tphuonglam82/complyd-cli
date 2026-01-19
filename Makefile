@@ -14,8 +14,8 @@ HIPAA_DIR = $(SRC_DIR)/frameworks/hipaa
 PARSER_DIR = $(SRC_DIR)/parsers
 
 # Target executables
-TARGET = grc-scan
-TARGET_TEST = grc-scan-hipaa
+TARGET = complyd-scan
+TARGET_TEST = complyd-scan-hipaa
 
 # Source files
 MAIN_SRC = $(SRC_DIR)/main.c
@@ -256,9 +256,9 @@ help:
 	@echo "  make                          # Build the project"
 	@echo "  make clean all                # Clean and build"
 	@echo "  make test                     # Run test scanner"
-	@echo "  ./grc-scan config.json        # Scan JSON file"
-	@echo "  ./grc-scan security.md        # Scan Markdown file"
-	@echo "  ./grc-scan compliance.pdf     # Scan PDF file"
+	@echo "  ./complyd-scan config.json        # Scan JSON file"
+	@echo "  ./complyd-scan security.md        # Scan Markdown file"
+	@echo "  ./complyd-scan compliance.pdf     # Scan PDF file"
 	@echo ""
 
 # Phony targets (not actual files)

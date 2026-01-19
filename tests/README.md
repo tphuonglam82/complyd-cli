@@ -69,21 +69,21 @@ These files fail specific compliance checks:
 ### Run Individual Tests
 ```bash
 # Test compliant configuration
-./grc-scan tests/fixtures/compliant/config-full-compliant.json
+./complyd-scan tests/fixtures/compliant/config-full-compliant.json
 
 # Test non-compliant configuration
-./grc-scan tests/fixtures/non_compliant/no-mfa.json
+./complyd-scan tests/fixtures/non_compliant/no-mfa.json
 
 # Test different file formats
-./grc-scan tests/fixtures/compliant/config-full-compliant.md
-./grc-scan tests/fixtures/compliant/config-full-compliant.yaml
+./complyd-scan tests/fixtures/compliant/config-full-compliant.md
+./complyd-scan tests/fixtures/compliant/config-full-compliant.yaml
 ```
 
 ### Run Examples
 ```bash
 # Test with examples
-./grc-scan examples/json/test-config.json
-./grc-scan examples/markdown/security-config.md
+./complyd-scan examples/json/test-config.json
+./complyd-scan examples/markdown/security-config.md
 ```
 
 ## Test Results Interpretation

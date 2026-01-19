@@ -16,7 +16,7 @@ BOLD='\033[1m'
 # Paths
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ROOT="$(cd "$SCRIPT_DIR/../.." && pwd)"
-SCANNER="$PROJECT_ROOT/grc-scan"
+SCANNER="$PROJECT_ROOT/complyd-scan"
 TEST_FIXTURES="$PROJECT_ROOT/tests/fixtures"
 COMPLIANT_DIR="$TEST_FIXTURES/compliant"
 NON_COMPLIANT_DIR="$TEST_FIXTURES/non_compliant"
