@@ -1,0 +1,13 @@
+build/
+*.o
+*.a
+*.so
+grc-scan
+CMakeCache.txt
+CMakeFiles/
+.DS_Store
+*.log
+*.json
+*.html
+.aws/
+credentials
